@@ -26,10 +26,10 @@ function renderSynsets(synsets) {
         <table id="synset-table-${i}" class="synsetTable">
         </table>`;
         const mytable = document.getElementById(`synset-table-${i}`);
-        mytable.innerHTML += `<tr>Synset ${i}</tr>`;
+        mytable.innerHTML += `<tr><th>Synset ${i}</th></tr>`;
         for (let j = 0; j < terms.length; j++) {
             const term = terms[j]['term'];
-            mytable.innerHTML += `<tr>${term}</tr>`;
+            mytable.innerHTML += `<tr><td>${term}</td></tr>`;
             
         }
     }

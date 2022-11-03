@@ -23,3 +23,24 @@ body {
     align-items: flex-start;
     padding: 16px;
 }
+
+.synsetTable {
+    margin: 32px;
+    padding: 8px;
+    border-color: gray;
+    background-color: aquamarine;
+    border: 2px solid rgb(0, 0, 0);
+}
+
+.synsetTable tbody:first-child {
+    font-weight: bold;
+}
+
+.synsetTable tbody {
+    border: 2px solid rgba(0, 0, 0, 0);
+}
+
+td {
+    border: 1px solid;
+    padding: 2px;
+  }
