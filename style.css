@@ -1,0 +1,25 @@
+body {
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.subContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.subContainer span {
+    margin: 16px;
+}
+
+.synsetsOutput {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 16px;
+}
