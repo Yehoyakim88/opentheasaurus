@@ -1,5 +1,6 @@
 body {
     margin: 0;
+    background-color: bisque;
 }
 
 .container {
@@ -9,7 +10,7 @@ body {
 
 .subContainer {
     display: flex;
-    flex-direction: column;
+    
 }
 
 .subContainer span {
@@ -18,17 +19,17 @@ body {
 
 .synsetsOutput {
     display: flex;
-    flex-direction: column;
+    flex-wrap: nowrap;
     justify-content: center;
     align-items: flex-start;
     padding: 16px;
 }
 
 .synsetTable {
-    margin: 32px;
+    margin: 16px;
     padding: 8px;
     border-color: gray;
-    background-color: aquamarine;
+    background-color: rgb(164, 255, 225);
     border: 2px solid rgb(0, 0, 0);
 }
 

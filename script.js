@@ -12,11 +12,8 @@ async function getSynonyms() {
 
 
 function renderSynsets(synsets) {
-    let container = document.getElementById('container');
-    container.innerHTML = /*html*/`
-    <div id="sub-container" class="synsetsOutput"> 
-        <span>Es wurden <b>${synsets.length}</b> Synonym-Sets geladen.</span>
-    </div>`;
+    let result = document.getElementById('result');
+    result.innerHTML = `Es wurden <b>${synsets.length}</b> Synonym-Sets geladen.`;
     
     let subcontainer = document.getElementById('sub-container');
 
